@@ -1,0 +1,13 @@
+@use '../base/variables';
+
+// Tarjetas
+.card {
+  background: variables.$white;
+  padding: variables.$spacing * 2;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+  h3 {
+    margin-bottom: variables.$spacing;
+  }
+}

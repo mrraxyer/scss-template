@@ -1,0 +1,16 @@
+@use 'sass:color';
+@use '../base/variables';
+
+// Buttons
+.btn {
+  padding: variables.$spacing (variables.$spacing * 2);
+  background: variables.$primary;
+  color: variables.$white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background: color.adjust(variables.$primary, $lightness: -10%);
+  }
+}

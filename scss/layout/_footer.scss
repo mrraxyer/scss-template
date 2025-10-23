@@ -1,0 +1,10 @@
+@use '../base/variables';
+
+// Footer
+footer {
+  background: variables.$dark;
+  color: variables.$white;
+  padding: variables.$spacing * 2;
+  text-align: center;
+  margin-top: variables.$spacing * 4;
+}

@@ -1,0 +1,28 @@
+@use '../base/variables';
+
+// Header
+header {
+  background: variables.$dark;
+  color: variables.$white;
+  padding: variables.$spacing 0;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  nav a {
+    color: variables.$white;
+    text-decoration: none;
+    margin-left: variables.$spacing * 2;
+
+    &:hover {
+      color: variables.$primary;
+    }
+  }
+}

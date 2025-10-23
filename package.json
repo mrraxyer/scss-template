@@ -1,0 +1,22 @@
+{
+  "name": "scss-static-template",
+  "version": "1.0.0",
+  "description": "Static HTML template with SCSS",
+  "main": "index.html",
+  "scripts": {
+    "sass": "sass --watch scss:dist/css --style compressed",
+    "sass:build": "sass scss:dist/css --style compressed",
+    "sass:dev": "sass --watch scss:dist/css --style expanded"
+  },
+  "keywords": [
+    "scss",
+    "html",
+    "template",
+    "static"
+  ],
+  "author": "MrRaxyer",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.69.5"
+  }
+}

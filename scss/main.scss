@@ -1,0 +1,11 @@
+// Main SCSS File
+@use 'base/variables';
+@use 'base/reset';
+
+@use 'components/buttons';
+@use 'components/cards';
+
+@use 'layout/header';
+@use 'layout/footer';
+
+@use 'pages/home';
